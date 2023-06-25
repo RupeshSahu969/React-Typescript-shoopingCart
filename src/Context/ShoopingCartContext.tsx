@@ -15,6 +15,9 @@ type ShoppingCartProviderProps={
 
 export function ShoppingCartProvider({children} : ShoppingCartProviderProps){
     
+
+
+    
     return(
         <ShoopingCartContext.Provider value={{}}>
             {children}
